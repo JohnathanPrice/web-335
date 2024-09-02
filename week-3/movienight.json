@@ -1,0 +1,45 @@
+{
+  "viewers": [
+    {
+      "_id": "viewer1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ratings": [
+        {
+          "_id": "rating1",
+          "ratingScore": 4,
+          "movieId": "movie1"
+        },
+        {
+          "_id": "rating2",
+          "ratingScore": 5,
+          "movieId": "movie2"
+        }
+      ]
+    },
+    {
+      "_id": "viewer2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "ratings": [
+        {
+          "_id": "rating3",
+          "ratingScore": 3,
+          "movieId": "movie1"
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "_id": "movie1",
+      "movieName": "Inception",
+      "Genre": "Sci-Fi"
+    },
+    {
+      "_id": "movie2",
+      "movieName": "The Matrix",
+      "Genre": "Action"
+    }
+  ]
+}
